@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/final-fisica/',
   plugins: [react()],
   build: {
+    outDir: 'docs',
     chunkSizeWarningLimit: 600,
   },
   preview: {

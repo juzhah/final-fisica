@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build && node -e \"require('fs').writeFileSync('dist/.nojekyll', '')\"",
-    "deploy": "gh-pages -d dist -t"
+    "predeploy": "npm run build && node -e \"require('fs').writeFileSync('docs/.nojekyll', '')\"",
+    "deploy": "gh-pages -d docs -t"
   },
   "dependencies": {
     "react": "^18.3.1",
